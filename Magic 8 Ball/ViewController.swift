@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     
     func newBallImage() {
-        diceView = Int(arc4random_uniform(4))
+        diceView = Int(arc4random_uniform(5))
         ballView.image = UIImage(named: randomBallNum[diceView])
     }
     
